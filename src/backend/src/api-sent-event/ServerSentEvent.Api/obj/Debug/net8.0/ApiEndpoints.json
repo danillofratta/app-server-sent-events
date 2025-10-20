@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "ServerSentEvent.Api.Controllers.V1.NotificationsController",
+    "Method": "GetStream",
+    "RelativePath": "api/v1/Notifications/getstream",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

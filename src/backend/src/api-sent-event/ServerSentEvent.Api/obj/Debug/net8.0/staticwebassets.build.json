@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zN5komAwGDArM6Kv+JXGCRzr65YjF0WkJkBhOWxRamY=",
+  "Source": "ServerSentEvent.Api",
+  "BasePath": "_content/ServerSentEvent.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
