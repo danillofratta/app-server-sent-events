@@ -1,28 +1,78 @@
-# .NET build folders
+##############################################
+# GLOBAL IGNORE CONFIG FOR .NET + ANGULAR + NEXT.JS
+##############################################
+
+# === .NET ===
 [Bb]in/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
 .vs/
-
-# User-specific files
 *.user
 *.suo
 *.rsuser
-
-# Build artifacts
+*.cache
+*.pdb
 *.dll
 *.exe
-*.pdb
-*.cache
+*.dbmdl
+*.publishsettings
+project.lock.json
+project.fragment.lock.json
+artifacts/
 
-# Python cache (caso tenha scripts)
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# === SYSTEM ===
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+*.bak
+
+# === PYTHON (if scripts exist) ===
 __pycache__/
 *.pyc
 
-# Ignore node_modules and build outputs only inside clients
+##############################################
+# ANGULAR CLIENT (src/client-angular)
+##############################################
 src/client-angular/node_modules/
 src/client-angular/dist/
+src/client-angular/.angular/cache/
+src/client-angular/.sass-cache/
+src/client-angular/coverage/
+src/client-angular/tmp/
+src/client-angular/out-tsc/
+
+##############################################
+# NEXT.JS CLIENT (src/client-nextjs)
+##############################################
 src/client-nextjs/node_modules/
 src/client-nextjs/.next/
 src/client-nextjs/out/
+src/client-nextjs/build/
+src/client-nextjs/coverage/
+src/client-nextjs/.vercel/
+src/client-nextjs/.env*
+src/client-nextjs/next-env.d.ts
+src/client-nextjs/*.tsbuildinfo
+
+##############################################
+# EDITORS / IDEs
+##############################################
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.sublime-workspace
+*.sublime-project
+.project
+.classpath
+.settings/
